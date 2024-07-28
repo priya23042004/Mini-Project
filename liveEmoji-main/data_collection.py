@@ -35,6 +35,7 @@ while True:
             lst.append(i.x - res.face_landmarks.landmark[1].x)
             lst.append(i.y - res.face_landmarks.landmark[1].y)
 
+
         X.append(lst)
         data_size += 1
 
